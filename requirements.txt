@@ -1,0 +1,7 @@
+ipykernel
+pandas
+pyarrow
+azure-storage-file-datalake
+azure-identity
+snowflake-connector-python == 3.15.0
+msfabricpysdkcore == 0.2.2
