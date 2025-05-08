@@ -37,7 +37,7 @@ Give your user permissions to read the secrets from this key vault.
 6. Set up an Environment item in Microsoft Fabric which uses the two public libraries from PyPI:
 - snowflake-connector-python == 3.15.0
 - msfabricpysdkcore ==  0.2.2
-7. Open the init_mirror_new_views.ipynb notebook and attach the Environment item you created in step 6. This will allow the notebook to use the libraries from PyPI.
+7. Open the init_mirror_new_views.ipynb notebook
 7.1 Configure the first cell (after imports) to initialize the mirroring for new views. You can also add new entries here (alternatively insert the values directly in the SQL Database).
 7.2 Run the notebok. This will initialize the mirroring process for the views you want to mirror from Snowflake to Microsoft Fabric.
 8. Open the sync_snowflake_views.ipynb notebook and attach the Environment item you created in step 6. Run the notebook. This will start the synchronization process, which will synchronize the views enabled for mirroring between Snowflake and Microsoft Fabric.
