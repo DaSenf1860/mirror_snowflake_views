@@ -7,7 +7,8 @@ The solution consists mainly of three notebooks:
 - init_mirror_new_views.ipynb: This notebook will include new views to the mirroring routine (Run this once for every new batch of views you want to enable for mirroring)
 - sync_snowflake_views.ipynb: This notebook will sync the views from Snowflake to Microsoft Fabric (Run this continuously to keep the views in sync)
 
-
+There is a tutorial video over here:
+[Video on Youtube](https://youtu.be/KGRUREK2tIw?feature=shared)
 
 ## Prerequisites
 
